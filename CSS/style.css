@@ -1,19 +1,126 @@
 /* Universal Selector */
-*{
+/* *{
     color: red;
-} 
+}  */
 
 /* ID Selector */
-#diff{
+/* #diff{
     color: green;
-}
+} */
 
 /* Class Selector */
-.dot{
+/* .dot{
     color: blue;
-}
+} */
 
 /* Group selector */
-h1, p{
+/* h1, p{
     color: aquamarine;
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.subheading{
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.para{
+    /* text-decoration: underline; */
+    text-align: center;
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* .box{
+    height: 40%;
+    width: 100%;
+    background-size: contain;
+    background-color: green;
+    border:5px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px; 
+    background-image: url("https://images.unsplash.com/photo-1780436935760-bf92c364776a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8");
+} */
+
+.inline{
+    display: inline;
+}
+
+span{
+     display: block;
+}
+
+.container{
+    di
+    height: 40%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.box{
+    height: 90%;
+    width: 20%;
+    background-color: green;
+}
+
+#diff1{
+    height: 90%;
+    width: 20%;
+    background-color: brown;
+}
+
+#diff2{
+    height: 90%;
+    width: 20%;
+    background-color: lightblue;
+}
+
+#diff3{
+    height: 90%;
+    width: 20%;
+    background-color: pink;
+}
+
+#diff4{
+    height: 90%;
+    width: 20%;
+    background-color: blue;
+}
+
+#diff5{
+    height: 90%;
+    width: 20%;
+    background-color: yellow;
+}
+
+#diff6{
+    height: 90%;
+    width: 20%;
+    background-color: orange;
 }
