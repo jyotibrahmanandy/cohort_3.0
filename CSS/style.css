@@ -1,0 +1,19 @@
+/* Universal Selector */
+*{
+    color: red;
+} 
+
+/* ID Selector */
+#diff{
+    color: green;
+}
+
+/* Class Selector */
+.dot{
+    color: blue;
+}
+
+/* Group selector */
+h1, p{
+    color: aquamarine;
+}
