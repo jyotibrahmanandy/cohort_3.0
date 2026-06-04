@@ -77,7 +77,8 @@ span{
 }
 
 .container{
-    di
+    display: flex;
+    
     height: 40%;
     width: 100%;
     background-color: lightgray;
